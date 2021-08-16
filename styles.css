@@ -1,0 +1,317 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto;
+  position: relative;
+}
+
+/* Estilos globales */
+.cyan {
+  color: #14bad4;
+}
+main {
+  position: relative;
+  z-index: 10;
+}
+.image__top {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+}
+.header__logo {
+  width: 50px;
+}
+.header__number {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+.header__week {
+  font-size: 9px;
+  line-height: 11px;
+  color: #5f627c;
+}
+
+/* Pdf: lista de compras */
+.shopping__main {
+  padding: 37px 36px;
+  padding-bottom: 90px;
+}
+.shopping__title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #2e325e;
+  margin-bottom: 10px;
+}
+.shopping__line {
+  width: 39px;
+  height: 0px;
+  border: 1px solid rgba(179, 179, 200, 0.5);
+  margin-bottom: 20px;
+}
+.shopping__greetings {
+  font-size: 15px;
+  line-height: 27px;
+  color: #535879;
+}
+.shopping__text {
+  font-size: 13px;
+  line-height: 27px;
+  margin-bottom: 40px;
+  color: #535879;
+}
+.shopping__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.shopping__list1 {
+  border-right: 1px solid rgba(179, 179, 200, 0.3);
+  padding-right: 20px;
+}
+.shopping__list2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+.shopping__list-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  color: #272b4e;
+}
+.shopping__list-header-div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 45px;
+  padding: 12px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+.shopping__list-header-circle {
+  width: 21px;
+  height: 21px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.shopping__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 9px;
+  line-height: 11px;
+  padding-left: 7px;
+}
+.shopping__list-item-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  color: #9b9bbc;
+}
+.shopping__list-item-box {
+  width: 9px;
+  height: 9px;
+  border: 0.7px solid #b3b3c8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 18px;
+  color: #9b9bb3;
+}
+.shopping__footerInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  margin-right: 40px;
+}
+.shopping__footerText {
+  margin-top: 6px;
+}
+
+/* Pdf: lista de compras */
+.weeklyPlan__main {
+  padding: 37px 36px;
+  padding-bottom: 26px;
+}
+.weeklyPlan__header {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.weeklyPlan__title1 {
+  font-weight: bold;
+  color: #575e94;
+}
+.weeklyPlan__title2 {
+  color: #7880bf;
+  font-weight: 300;
+}
+.weeklyPlan__text {
+  width: 189px;
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  color: #696d88;
+}
+.weeklyPlan__body {
+  padding-left: 15px;
+  margin-top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.weeklyPlan__dayContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  height: 148px;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+.weeklyPlan__day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 33px;
+  height: 40px;
+  left: -15px;
+  top: 7px;
+  border-radius: 5px;
+}
+.weeklyPlan__day-title {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 10px;
+  margin-bottom: 0px;
+}
+.weeklyPlan__day-number {
+  font-style: italic;
+  font-weight: 900;
+  line-height: 17px;
+  margin-bottom: 0px;
+}
+.weeklyPlan__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 130px;
+  height: 100%;
+}
+.weeklyPlan__card-title {
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 14px;
+  color: #606383;
+}
+.weeklyPlan__card-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 6px;
+  color: #9b9bbc;
+}
